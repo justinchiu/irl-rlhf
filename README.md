@@ -1,3 +1,4 @@
-# template-sty
+# IRL vs RLFH
 
-Style file template for latex
+Note on the relationship between inverse reinforcement learning
+and reinforcement learning from human feedback.
