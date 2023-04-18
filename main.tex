@@ -11,6 +11,9 @@ Is reinforcement learning from human feedback (RLHF)
 related to inverse reinforcement learning (IRL)?
 Let's write out the math of both and see if they line up.
 
+TODO: emphasize online versus online
+
+
 \section{Inverse reinforcement learning (IRL)}
 IRL is a specific imitation learning method.
 Imitation learning methods aim to learn a good policy from expert demonstrations.
@@ -44,6 +47,8 @@ $$\nabla_R \log P(x \mid y) \approx \nabla_R R(x,y) - \sum_{x'}\nabla_R R(x',y),
 where we sample non-expert trajectories from the model, $x'\sim P(x \mid y)$.
 Note that sampling from a globally normalized distribution is also difficult,
 so this would require an easy-to-sample from approximation (e.g a policy).
+
+JUST OFFLINE SO FAR
 
 \section{Reinforcement learning from human feedback (RLHF)}
 
